@@ -1,0 +1,118 @@
+nav{
+    display: flex;
+}
+.logo img{
+    height:  55px;
+    margin: 11px 146px;
+}
+.list ul{
+    display: flex;
+    gap: 29px;
+    margin: 27px 178px;
+}
+.list ul li{
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    cursor: pointer;
+    display: flex;
+    align-content: center;
+}
+.first{
+    text-align: center;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 75px 0px 50px 0px;
+}
+.second{
+    text-align: center;
+    font-size: 22px;
+    margin: 40px 263px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.button{
+    text-align: center;
+}
+.button button{
+    background-color: rgb(18, 204, 204);
+    height: 50px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    padding: 22px;
+    text-align: center
+}
+.third{
+    font-size: 25px;
+    margin: 85px 225px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.third img{
+    height: 60px;
+    margin: -24px 21px;
+}
+.third p{
+    font-size: 12px;
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.grid{
+    display: grid;
+    max-width: 1016px;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+.item{
+    text-align: center;
+    background-color: #f9f9f9;
+}
+.lang{
+    margin: 20px 0px 9px 0px;
+    font-weight: bolder;
+    font-size: 21px;
+    font-family: system-ui
+}
+.sublang{
+    margin-bottom: 38px;
+    font-size: small;
+}
+.btn{
+    background-color: #5cb85c;
+    border-radius: 6px;
+    border: none;
+    padding: 12px;
+    color: white;
+    font-weight: bolder;
+    margin-bottom: 14px;
+    cursor: pointer;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+.credit{
+    text-align: center;
+    height: 30px;
+    border: 3px solid black;
+    margin: 40px 600px;
+    background-color: beige;
+    border-radius: 12px;
+    padding: 10px;
+    font-size: larger;
+    font-weight: bolder;
+    color: green;
+    font-family: cursive;
+}
+@media screen and (max-width:900px) {
+    .grid{
+        display: grid;
+        max-width: 1016px;
+        margin: auto;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        align-content: center;
+    }
+}
