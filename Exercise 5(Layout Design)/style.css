@@ -1,0 +1,58 @@
+body{
+    background-color: black;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: sticky;
+    top: 0;
+}
+nav{
+    background-color: aqua;
+    height: 50px;
+}
+.container{
+    height: 600px;
+    background-color: green;
+    margin: 30px;
+    text-align: center;
+}
+ .box1{
+    background-color: pink;
+    height: 470px;
+    width: 45%;
+    margin: 0px 0px 0px 0px;
+    display:inline-block
+}
+.box2{
+    background-color: blue;
+    height: 470px;
+    width: 45%;
+    margin: 62px 0px 0px 16px;
+    display:inline-block
+}
+.foot{
+    height: 100px;
+    border: solid white;
+    margin: 0px 493px;
+    border-radius: 20px;
+    display: inline-block;
+}
+P{
+    color: white;
+    text-align: center;
+    margin: 42px;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo{
+    background-color: orange;
+height: 49px;
+width: 50px;
+position: fixed;
+bottom: 20px;
+right: 10px;
+border-radius: 31px;
+}
